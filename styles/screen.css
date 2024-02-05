@@ -48,3 +48,19 @@ h1 strong {
 img.about {
     opacity: 0.5;
 }
+
+a{
+    color:#EAE8FF;
+    -webkit-background-clip: text;
+    text-decoration: none;
+    
+}
+
+/* Hover effect */
+a:hover {
+    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    text-decoration: underline; /* Add underline on hover */
+  }
+a:visited{
+    color: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
