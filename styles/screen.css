@@ -39,8 +39,8 @@ h1 {
 }
 
 h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: rgb(123, 34, 195);
+    background: linear-gradient(45deg, rgba(123,34,195,1) 0%, rgb(255, 207, 103) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -58,9 +58,24 @@ a{
 
 /* Hover effect */
 a:hover {
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     text-decoration: underline; /* Add underline on hover */
   }
+
 a:visited{
-    color: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    color: #a198ff;
+    text-decoration: underline;
+}
+.date{
+    font-size: 100px;
+}
+.date strong
+{
+    background: linear-gradient(45deg, rgba(123,34,195,1) 0%, rgb(255, 207, 103) 100%); /* Your gradient colors */
+    -webkit-background-clip: text; 
+    color: transparent;
+    background-clip: text;
+}
+article
+{
+    text-align: left;
 }
