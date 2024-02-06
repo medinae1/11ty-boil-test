@@ -2,8 +2,7 @@
 layout: layout.liquid
 title: Blog
 ---
-
-# {% blog '<strong>3/17/2095</strong>'%}
+ {% blog '<strong>3/17/2095</strong>'%}
 
 <article>Greetings, fellow cosmic explorers!
 
